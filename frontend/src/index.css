@@ -1,5 +1,4 @@
 @import "tailwindcss";
-/* Import all Tailwind CSS utilities */
 
 @custom-variant dark (&:where(.dark, .dark *));
 /* Custom 'dark' variant: applies when the element or any parent has the 'dark' class */
@@ -9,7 +8,6 @@
    /* Tailwind utilities for full width, border, padding, rounded corners, and focus style */
 
    border: none !important;
-   /* Override to remove border completely */
 }
 
 .PhoneInputCountrySelect {
